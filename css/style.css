@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: helvetica;
+
+}
+
+body {
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #10173a 0%, #3a3d53 98%);
+}
+
+h2 {
+    margin-bottom: 48px;
+}
+
+#multiplication-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 1rem auto;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    color: #333;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+.form-control label {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.form-control input {
+    width: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+#multiplication-form input[type="submit"] {
+    padding: 0.6rem 1.2rem;    
+    max-height: 45px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #120155;
+    color: #fff;
+}
+#multiplication-form input[type="submit"]:hover{
+    background-color: #0e0039;
+}
+
+#multiplication-operations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    background-color: #fff;
+    color: #333;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+#multiplication-operations .row{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    width: 150px;
+    padding: 0.5rem;
+}
+#multiplication-operations .row:last-child{
+    border-bottom: 1px solid #ccc;
+}
+#multiplication-operations .row .result{
+    margin-left: 6px;
+}

@@ -10,7 +10,7 @@ const createTable = (number, multiplicatorNumber) => {
 
 
   
-  for (i = 1; i < multiplicatorNumber; i++) {
+  for (i = 1; i < multiplicatorNumber + 1; i++) {
     const result = number * i;
 
     const template = `
